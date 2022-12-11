@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Insert</title>
+
+    <style>
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>กรอกข้อมูลส่วนตัว</h1>
+    <form action="process.php" method="post">
+    <fieldset>    
+        <label>First name</label>
+        <input type="text" name="first_name"><br>
+        <label>Last mame</label>
+        <input type="text" name="last_name"><br>
+        <label>Position</label>
+        <input type="text" name="position"><br>
+        <label>Email</label>
+        <input type="text" name="email"><br>
+        <input type="submit" value="ส่งข้อมูล">
+        <input type="reset" name="reset" value="ลบข้อมูล">
+    </form>
+</fieldset>
+</body>
+</html>
